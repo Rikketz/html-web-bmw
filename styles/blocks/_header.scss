@@ -1,0 +1,122 @@
+
+.bold{
+    font-weight: bold;
+}
+.tegusta{
+    font-size: 25px;
+}
+.titular{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.textosHeader{
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blanco{
+    color: white;
+}
+
+
+
+.top{
+    &__header{
+        background-image: url("../../assets/bmw_neue-klasse_vision_dsk_fb_16to7.webp");
+        width: 100%;
+        background-size: cover;
+        height: 837px;
+
+        &__nav{
+            height: 85px;
+            display: flex;
+            margin-left: 5.1%;
+            margin-right: 5%;
+            border-bottom: solid white 2px;
+
+            &__logo{
+                height: 100%;
+                display: flex;
+                align-items: center;
+                margin-right: 1.8%;
+
+                &--logo{
+                    height: 60%;
+                }
+            }
+            &__lista{
+                display: flex;
+                padding-right: 58%;
+                height: 100%;
+
+                &__textos{
+                    display: flex;
+                    padding-left: 12px;
+                    padding-right: 12px;
+                    align-items: center;
+                    height: 100%;
+                }
+                &__textos:hover{
+                    border-bottom: 5px solid blue;
+                }
+            }
+            &__iconos{
+                display: flex;
+
+                &__forma{
+                    width: 36px;
+                    height: 84px;
+                    padding-left: 12px;
+                    padding-right: 12px;
+                    display: flex;
+                    align-items: center;
+
+                    &--icon{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                &__forma:hover{
+                    border-bottom: 3px solid blue;
+                }
+            }
+        }
+    }
+    &__titulo{
+        margin-left: 5.1%;
+        margin-right: 5%;
+
+        &__eslogan{
+            padding-top: 1.3%;
+            margin-bottom: 15%;
+        }
+
+        &__novedad{
+            &--new{
+                padding-bottom: 1%;
+            }
+            &--bmw{
+                font-size: 80px;
+            }
+            &--era{
+                font-size: 30px;
+            }
+            &--boton{
+                margin-top: 1%;
+                background-color: #0653b6;
+                box-shadow: none;
+                color: #fff;
+                border: none;
+                font-weight: bold;
+                height: 52px;
+                width: 263px;
+                border-radius: 5px;
+            }
+        }
+    }
+}
+

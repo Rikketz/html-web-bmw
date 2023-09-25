@@ -1,0 +1,173 @@
+.main{
+    &__herramientas{
+        padding-left: 5%;
+        padding-right: 5%;
+        &__listado1{
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &__caja1{
+                margin-bottom: 10px;
+                &--letra{
+                    font-size: 14px;
+                    color: grey;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+            &__caja2{
+
+                &--letra{
+                    color: #262626;
+                    font-size: 64px;
+                    font-family: 'Montserrat', sans-serif;
+                }
+            }
+        }
+        &__listado2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+
+            &__caja{
+                width: 500px;
+                height: 355px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+
+                &--icono{
+                    height: 29.55%;
+                }
+                &--text{
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+                &--button{
+                    width: 40%;
+                    height: 14.69%;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-weight: bold;
+                    font-size: 16px;
+                    background-color: white;
+                    border: solid 1px;
+                    border-radius: 5px;
+                }
+                &--button:hover{
+                    animation: heartBeat;
+                    animation-duration: 1s;
+                }
+            }
+        }
+    }
+    &__video{
+        width: 100%;
+        &__cajas{
+            display: flex;
+            flex-direction: column;
+
+            &__cajita{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                &--texto{
+                    z-index: 5500;
+                    font-size: 30px;
+                    color: white;
+                    padding-left: 5%;
+                    padding-bottom: 2%;
+                    padding-top: 25%;
+                    text-decoration: solid;
+                }
+                &--button{
+                    background-color: rgba(0, 0, 0, 0);
+                    box-shadow: none;
+                    border-color: white;
+                    border-style: solid;
+                    color: white;
+                    width: 263px;
+                    height: 52px;
+                    margin-left: 5%;
+                }
+                
+            }
+            &--video{
+                width: 100%;
+                z-index: -500;
+                position: absolute;
+
+            }
+
+            }
+    }
+
+    &__oferta{
+        margin-top: 25%;
+        padding-top: 50px;
+        width: 100%;
+        background-image: url(./../../assets/video1.jpg);
+        width: 100%;
+        background-size: cover;
+        height: 639px;
+
+        &__caja{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding-left: 5%;
+
+            &__textos{
+                display: flex;
+                flex-direction: column;
+                padding-top: 100px;
+                &--1{
+                    color: white;
+                    font-weight: bold;
+                    font-size: 25px;
+                }
+                &--2{
+                    color: white;
+                    font-size: 300px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    padding: 0;
+                }
+                &--3{
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 35px;
+                    padding-bottom: 50px;
+                }
+            }
+
+            &__botones{
+                &--1{
+                    background-color: rgb(74, 74, 247);
+                    font-weight: bold;
+                    color: white;
+                    border-style: none;
+                    width: 175px;
+                    height: 40px;
+                    margin-right: 20px;
+                    border-radius: 5px;
+                }
+                &--2{
+                    background-color: rgba(0, 0, 0, 0);
+                    font-weight: bold;
+                    color: white;
+                    border-style: solid 1px white;
+                    border-color: white;
+                    border-style: solid;
+                    width: 175px;
+                    height: 40px;
+                    margin-right: 20px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
